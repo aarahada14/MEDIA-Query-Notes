@@ -34,6 +34,9 @@
 .bg-gainsboro{
     background-color: gainsboro;
 }
+.bg-white{
+    background-color: white;
+}
 
 /* ...........................bg end........................  */
 
@@ -56,7 +59,22 @@
     border: 1px solid orange;
 }
 
+
 /* ...........................border end........................  */
+
+
+
+/* ...........................radius-boxsadow start........................  */
+
+.radius{
+    border-radius: 20px;
+}
+.shadow{
+    box-shadow:1px 1px 5px white ;
+}
+
+/* ...........................radius-boxsadow end........................  */
+
 
 
 
@@ -72,6 +90,8 @@
 }
 
 /* ........................... padding end........................... */
+
+
 
 /* ........................... hight start........................... */
 
