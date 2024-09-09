@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ...........................containar start........................ */
+
+.containar{
+    max-width: 1320px;
+    margin:  auto;
+    
+}
+.containar-fuid{
+    width: 100%;
+}
+
+/* ...........................containar end........................ */
+
+
+
+
+/* .........................slider start........................ */
+
+.slick-next:before {
+    content: '➡️'!important;
+    color: black;
+}
+.slick-prev:before {
+    content: '⬅️' !important;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+ }
+ 
+/* .........................slider end........................ */
+
+
+
+/* ...........................flex start........................... */
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+    align-items: space-around;
+}
+
+/* ...........................flex end........................... */
+
+
+/* ...........................bg start........................  */
+
+.bg-gainsboro{
+    background-color: gainsboro;
+}
+.bg-white{
+    background-color: white;
+}
+
+/* ...........................bg end........................  */
+
+
+/* ...........................border start........................  */
+
+.b-red{
+    border: 1px solid red;
+}
+.b-green{
+    border: 1px solid green;
+}
+.b-black{
+    border: 1px solid black;
+}
+.b-blue{
+    border: 1px solid blue;
+}
+.b-orange{
+    border: 1px solid orange;
+}
+
+
+/* ...........................border end........................  */
+
+
+
+/* ...........................radius-boxsadow start........................  */
+
+.radius{
+    border-radius: 20px;
+}
+.shadow{
+    box-shadow:1px 1px 5px black;
+}
+
+/* ...........................radius-boxsadow end........................  */
+
+
+/* ........................... padding start........................... */
+
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-t-b{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ........................... padding end........................... */
+
+
+/* ........................... text start........................... */
+
+.t-align{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ........................... text start........................... */
+
+
+/* ........................... margin start........................... */
+
+.m-60{
+    margin:60px 0px 60px 0px ;
+}
+.m-100{
+    margin:100px 0px 100px 0px ;
+}
+/* ........................... margin end........................... */
+
+
+
+/* ........................... hight start........................... */
+.h-50{
+    height: 50px;
+}
+.h-100{
+    height: 100px;
+}
+.h-200{
+    height: 200px;
+}
+.h-300{
+    height: 300px;
+}
+.h-400{
+    height: 400px;
+}
+
+/* ........................... hight end........................... */

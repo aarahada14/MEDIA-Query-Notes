@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../max-width"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "min-width"
+	}
+}
